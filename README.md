@@ -154,7 +154,7 @@ The component uses SCSS for styling. You can customize the appearance by overrid
 
 ## 🎨 Demo
 
-Check out the [live demo](https://yourusername.github.io/vue-flip-clock/) to see all modes in action.
+Check out the [live demo](https://xiaxiangfeng.github.io/vue-flip-clock/) to see all modes in action.
 
 ## 📋 Requirements
 
@@ -166,7 +166,7 @@ Check out the [live demo](https://yourusername.github.io/vue-flip-clock/) to see
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/vue-flip-clock.git
+git clone https://github.com/xiaxiangfeng/vue-flip-clock.git
 cd vue-flip-clock
 
 # Install dependencies
@@ -218,4 +218,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-**Note**: Replace `yourusername` in URLs with your actual GitHub username before publishing.
+**Note**: Replace `xiaxiangfeng` in URLs with your actual GitHub username before publishing.

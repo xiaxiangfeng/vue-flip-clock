@@ -14,7 +14,7 @@ This guide explains how to publish the package to npm and deploy the demo to Git
 
 Edit `package.json` and update:
 - Replace `"author": "Your Name"` with your name
-- Replace all instances of `yourusername` in URLs with your GitHub username
+- Replace all instances of `xiaxiangfeng` in URLs with your GitHub username
 - Verify the version number
 
 ### 2. Configure GitHub Secrets
@@ -88,7 +88,7 @@ To manually trigger deployment:
 2. Select **Deploy Demo to GitHub Pages** workflow
 3. Click **Run workflow**
 
-Your demo will be available at: `https://yourusername.github.io/vue-flip-clock/`
+Your demo will be available at: `https://xiaxiangfeng.github.io/vue-flip-clock/`
 
 ## Version Update Checklist
 
