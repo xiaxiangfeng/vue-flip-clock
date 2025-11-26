@@ -1,0 +1,22 @@
+# Development and demo files
+demo/
+.github/
+*.md
+!README.md
+
+# Source files (only dist is published)
+lib/
+src/
+
+# Config files
+vite.config.js
+tsconfig.json
+
+# Development dependencies
+node_modules/
+.vscode/
+.idea/
+
+# Git
+.gitignore
+.gitattributes
