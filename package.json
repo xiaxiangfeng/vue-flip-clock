@@ -1,6 +1,6 @@
 {
     "name": "@xiaxiangfeng/vue-flip-clock",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "type": "module",
     "description": "A beautiful 3D flip clock component for Vue 3 with multiple modes (clock, countdown, timer)",
     "author": "Your Name",
