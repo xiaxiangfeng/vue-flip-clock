@@ -1,9 +1,9 @@
 # Vue Flip Clock
 
 <p align="center">
-  <img src="https://img.shields.io/npm/v/vue-flip-clock.svg" alt="npm version">
-  <img src="https://img.shields.io/npm/l/vue-flip-clock.svg" alt="license">
-  <img src="https://img.shields.io/npm/dm/vue-flip-clock.svg" alt="downloads">
+  <img src="https://img.shields.io/npm/v/@xiaxiangfeng/vue-flip-clock.svg" alt="npm version">
+  <img src="https://img.shields.io/npm/l/@xiaxiangfeng/vue-flip-clock.svg" alt="license">
+  <img src="https://img.shields.io/npm/dm/@xiaxiangfeng/vue-flip-clock.svg" alt="downloads">
 </p>
 
 A beautiful 3D flip clock component for Vue 3 with smooth animations and multiple modes.
@@ -20,19 +20,19 @@ A beautiful 3D flip clock component for Vue 3 with smooth animations and multipl
 ## 📦 Installation
 
 ```bash
-npm install vue-flip-clock
+npm install @xiaxiangfeng/vue-flip-clock
 ```
 
 Or with yarn:
 
 ```bash
-yarn add vue-flip-clock
+yarn add @xiaxiangfeng/vue-flip-clock
 ```
 
 Or with pnpm:
 
 ```bash
-pnpm add vue-flip-clock
+pnpm add @xiaxiangfeng/vue-flip-clock
 ```
 
 ## 🚀 Quick Start
@@ -41,8 +41,8 @@ pnpm add vue-flip-clock
 
 ```javascript
 import { createApp } from 'vue'
-import VueFlipClock from 'vue-flip-clock'
-import 'vue-flip-clock/dist/style.css'
+import VueFlipClock from '@xiaxiangfeng/vue-flip-clock'
+import '@xiaxiangfeng/vue-flip-clock/dist/style.css'
 
 const app = createApp(App)
 app.use(VueFlipClock)
@@ -65,8 +65,8 @@ Then use it in your template:
 </template>
 
 <script setup>
-import { FlipClock } from 'vue-flip-clock'
-import 'vue-flip-clock/dist/style.css'
+import { FlipClock } from '@xiaxiangfeng/vue-flip-clock'
+import '@xiaxiangfeng/vue-flip-clock/dist/style.css'
 
 const targetTime = Date.now() + 60 * 60 * 1000 // 1 hour from now
 </script>
@@ -88,7 +88,7 @@ Countdown to a specific time:
 
 ```vue
 <script setup>
-import { FlipClock } from 'vue-flip-clock'
+import { FlipClock } from '@xiaxiangfeng/vue-flip-clock'
 
 // Countdown to a specific date
 const targetDate = new Date('2024-12-31T23:59:59').getTime()
@@ -107,7 +107,7 @@ Count up from a start time:
 
 ```vue
 <script setup>
-import { FlipClock } from 'vue-flip-clock'
+import { FlipClock } from '@xiaxiangfeng/vue-flip-clock'
 
 // Timer started 5 minutes ago
 const startTime = Date.now() - 5 * 60 * 1000
