@@ -1,6 +1,8 @@
 # 时钟、倒计时和计时器
 # Vue Flip Clock
 
+Check out the [live demo](https://xiaxiangfeng.github.io/vue-flip-clock/) to see all modes in action.
+
 <p align="center">
   <img src="https://img.shields.io/npm/v/@xiaxiangfeng/vue-flip-clock.svg" alt="npm version">
   <img src="https://img.shields.io/npm/l/@xiaxiangfeng/vue-flip-clock.svg" alt="license">
